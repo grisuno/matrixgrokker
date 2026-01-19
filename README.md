@@ -110,18 +110,35 @@ Superposition: Analyzes weight matrix structure
 2. Learning rate scheduling
 3. Thermal engine status
 
-## Reproducibility
+## Appendix C: Reproducibility
 
-Code and pretrained grokked models are publicly available:
+Repository: https://github.com/grisuno/strass_strassen
 
-- Core Framework: [https://github.com/grisuno/agi](https://github.com/grisuno/agi)
-- Parity Cassette: [https://github.com/grisuno/algebra-de-grok](https://github.com/grisuno/algebra-de-grok)
-- Wave Cassette: [https://github.com/grisuno/1d_wave_equation_grokker](https://github.com/grisuno/1d_wave_equation_grokker)
-- Kepler Cassette: [https://github.com/grisuno/kepler_orbit_grokker](https://github.com/grisuno/kepler_orbit_grokker)
-- Pendulum Cassette: [https://github.com/grisuno/chaotic_pendulum_grokked](https://github.com/grisuno/chaotic_pendulum_grokked)
-- Ciclotron Cassette: [https://github.com/grisuno/supertopo3](https://github.com/grisuno/supertopo3)
-- MatMul 2x2 Cassette: [https://github.com/grisuno/matrixgrokker](https://github.com/grisuno/matrixgrokker)
-- HPU Hamiltonian Cassette: [https://github.com/grisuno/HPU-Core](https://github.com/grisuno/HPU-Core)
+DOI: https://doi.org/10.5281/zenodo.18263654
+
+Reproduction:
+
+```bash
+git clone https://github.com/grisuno/strass_strassen
+cd strass_strassen
+pip install -r requirements.txt
+python app.py
+```
+
+Related repositories:
+
+- Ancestor: https://github.com/grisuno/SWAN-Phoenix-Rising
+- Core Framework: https://github.com/grisuno/agi
+- Parity Cassette: https://github.com/grisuno/algebra-de-grok
+- Wave Cassette: https://github.com/grisuno/1d_wave_equation_grokker
+- Kepler Cassette: https://github.com/grisuno/kepler_orbit_grokker
+- Pendulum Cassette: https://github.com/grisuno/chaotic_pendulum_grokked
+- Ciclotron Cassette: https://github.com/grisuno/supertopo3
+- MatMul 2x2 Cassette: https://github.com/grisuno/matrixgrokker
+- HPU Hamiltonian Cassette: https://github.com/grisuno/HPU-Core
+
+[https://zenodo.org/records/18295001](https://zenodo.org/records/18295001)
+---
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Shell Script](https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white) ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white) [![License: AGPL v3](https://img.shields.io/badge/License-AGPLv3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 
