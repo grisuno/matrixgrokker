@@ -1,0 +1,57 @@
+# Subsystem: root
+
+## app.py
+- Layer: utility
+- Doc: _*_ coding: utf8 _*_
+- Language: py
+- Symbols:
+  - `Config` (class, line 26) `class Config`
+  - `MatrixMultiplicationDataset` (class, line 58) `class MatrixMultiplicationDataset(Dataset)`
+  - `MLPModel` (class, line 88) `class MLPModel(Module)`
+  - `LocalComplexity` (class, line 183) `class LocalComplexity`
+  - `Superposition` (class, line 230) `class Superposition`
+  - `MetricsTracker` (class, line 257) `class MetricsTracker`
+  - `ThermalEngine` (class, line 325) `class ThermalEngine`
+  - `MatrixGrokker` (class, line 355) `class MatrixGrokker`
+  - `run_full_experiment` (method, line 708) `def run_full_experiment()`
+  - `resume_from_latest_checkpoint` (method, line 753) `def resume_from_latest_checkpoint(config)`
+  - `load_specific_checkpoint` (method, line 770) `def load_specific_checkpoint(checkpoint_path, config)`
+  - `__init__` (method, line 27) `def __init__(self)`
+  - `__init__` (method, line 59) `def __init__(self, matrix_size, num_samples, random_range, device)`
+  - `_generate_matrices` (method, line 73) `def _generate_matrices(self, num_samples)`
+  - `_compute_products` (method, line 78) `def _compute_products(self, a, b)`
+  - `__len__` (method, line 81) `def __len__(self)`
+  - `__getitem__` (method, line 84) `def __getitem__(self, idx)`
+  - `__init__` (method, line 89) `def __init__(self, input_dim, output_dim, hidden_dim, num_layers, activation)`
+  - `forward` (method, line 115) `def forward(self, x)`
+  - `get_weight_matrix` (method, line 121) `def get_weight_matrix(self)`
+  - `expand_weights` (method, line 128) `def expand_weights(self, new_hidden_dim)`
+  - `expand_for_new_task` (method, line 155) `def expand_for_new_task(self, new_input_dim, new_output_dim, new_hidden_dim)`
+  - `compute` (method, line 185) `def compute(activations, epsilon)`
+  - `from_model` (method, line 205) `def from_model(model, x)`
+  - `compute` (method, line 232) `def compute(weights, rank, epsilon)`
+  - `from_model` (method, line 252) `def from_model(model, rank)`
+  - `__init__` (method, line 258) `def __init__(self)`
+  - `start_epoch` (method, line 273) `def start_epoch(self)`
+  - `log_iteration` (method, line 277) `def log_iteration(self, iteration_time)`
+  - `end_epoch` (method, line 280) `def end_epoch(self)`
+  - `compute_ips` (method, line 287) `def compute_ips(self)`
+  - `log_metrics` (method, line 293) `def log_metrics(self, train_loss, val_loss, train_acc, val_acc, lc, sp, lr, wd)`
+  - `get_summary` (method, line 305) `def get_summary(self)`
+  - `__init__` (method, line 326) `def __init__(self, config)`
+  - `compute_weight_decay` (method, line 334) `def compute_weight_decay(self, lc, sp, epoch)`
+  - `get_status` (method, line 348) `def get_status(self, lc, sp)`
+  - `__init__` (method, line 356) `def __init__(self, config)`
+  - `find_latest_checkpoint` (method, line 396) `def find_latest_checkpoint(self)`
+  - `load_checkpoint` (method, line 407) `def load_checkpoint(self, checkpoint_path)`
+  - `_create_model` (method, line 446) `def _create_model(self)`
+  - `_create_datasets` (method, line 455) `def _create_datasets(self)`
+  - `_compute_accuracy` (method, line 474) `def _compute_accuracy(self, predictions, targets, threshold)`
+  - `train` (method, line 479) `def train(self, resume_from_checkpoint)`
+  - `_save_checkpoint` (method, line 608) `def _save_checkpoint(self, model, optimizer, epoch, ips)`
+  - `zero_shot_transfer` (method, line 640) `def zero_shot_transfer(self, target_matrix_size)`
+  - `hook` (method, line 208) `def hook(module, input, output)`
+
+## install.sh
+- Layer: utility
+- Language: sh
